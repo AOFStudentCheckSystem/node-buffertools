@@ -25,7 +25,7 @@ var util = require('util');
 // } catch (e) {
 // 	var buffertools = require('./build/Debug/buffertools.node');
 // }
-// Quite Being Stupid!!!
+// Quit Being Stupid!!!
 var buffertools = require('./build/Release/buffertools.node');
 
 exports.extend = function() {
