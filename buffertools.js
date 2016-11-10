@@ -20,11 +20,13 @@ var Buffer = require('buffer').Buffer;
 var events = require('events');
 var util = require('util');
 
-try {
-	var buffertools = require('./build/Release/buffertools.node');
-} catch (e) {
-	var buffertools = require('./build/Debug/buffertools.node');
-}
+// try {
+// 	var buffertools = require('./build/Release/buffertools.node');
+// } catch (e) {
+// 	var buffertools = require('./build/Debug/buffertools.node');
+// }
+// Quite Being Stupid!!!
+var buffertools = require('./build/Release/buffertools.node');
 
 exports.extend = function() {
 	var receivers;
